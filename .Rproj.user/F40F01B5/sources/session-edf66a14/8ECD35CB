@@ -1,0 +1,27 @@
+{
+    "id": "8ECD35CB",
+    "path": "~/Rstudio/Metals/ElectricityPriceDemand/ElectricityScript.R",
+    "project_path": "ElectricityScript.R",
+    "type": "r_source",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1700676867513.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "tempName": "Untitled1",
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "144,53",
+        "scrollLine": "132"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1701111081,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1701111081575,
+    "read_only": false,
+    "read_only_alternatives": []
+}
