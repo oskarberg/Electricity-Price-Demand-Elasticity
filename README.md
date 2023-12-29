@@ -1,4 +1,4 @@
-# Electricity Price-Demand Elasticity
+# Electricity Price Demand Elasticity
 
 This project analyzes the elasticity of electricity demand with respect to price changes using a dynamic Bayesian state-space model. It accounts for additional factors like temperature, aiming to provide a comprehensive understanding of demand responsiveness.
 
@@ -6,7 +6,7 @@ This project analyzes the elasticity of electricity demand with respect to price
 Creating a model (Bayesian State space model) that dynamically estimates price elasticity using the electricity demand and price, and incoprporating an additional temperature as explanatory variable. MCMC sampling is utilized to estimate the posterior distributions of the parameters (alpha, beta, and gamma) in a Bayesian framework.
 
 ### Results
-A time series of the dynamically updating price elasticity, alpha, was achieved. However the alphas remained positive over all time, which doesn't align with economic theory of negative price elasticity.
+A time series of the dynamically updating price elasticity, alpha, was achieved. However the alphas remained positive over all time, which doesn't align with economic theory of negative price elasticity. I will continue to investigate this.
 
 ### Model inputs
 - **log_demand**: Log-transformed electricity demand data.
