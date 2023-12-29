@@ -5,8 +5,11 @@ This project analyzes the elasticity of electricity demand with respect to price
 ### Objective
 Creating a model (Bayesian State space model) that dynamically estimates price elasticity using the electricity demand and price, and incoprporating an additional temperature as explanatory variable. MCMC sampling is utilized to estimate the posterior distributions of the parameters (alpha, beta, and gamma) in a Bayesian framework.
 
+### Data Source
+Using a dataset of daily electricity price, demand, and weather data in Australia's second-largest state, Victoria. The dataset includes daily records from 1 January 2015 to 6 October 2020, encompassing price, demand, and weather parameters like maximum temperature.
+
 ### Results
-A time series of the dynamically updating price elasticity, alpha, was achieved. However the alphas remained positive over all time, which doesn't align with economic theory of negative price elasticity. I will continue to investigate this.
+A time series of the dynamically updating price elasticity, alpha, was achieved. However the alphas remained positive over all time, which doesn't align with economic theory of negative price elasticity. I will continue to investigate this. Furthermore, issues with MCMC convergence suggest the need for more model refinements.
 
 ### Model inputs
 - **log_demand**: Log-transformed electricity demand data.
