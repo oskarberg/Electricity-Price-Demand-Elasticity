@@ -2,9 +2,7 @@
 
 This project analyzes the elasticity of electricity demand with respect to price changes using a dynamic Bayesian state-space model. It accounts for additional factors like temperature, aiming to provide a comprehensive understanding of demand responsiveness.
 
-## Model Overview
-
-### Objectives
+### Objective
 Creating a model (Bayesian State space model) that dynamically estimates price elasticity using the electricity demand and price, and incoprporating an additional temperature as explanatory variable. MCMC sampling is utilized to estimate the posterior distributions of the parameters (alpha, beta, and gamma) in a Bayesian framework.
 
 ### Results
